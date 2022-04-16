@@ -1,0 +1,187 @@
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|FME 2021.1.1.0 (20210730 - Build 21619 - WIN64)
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|FME Desktop ESRI Edition (floating)
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|Permanent License.
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|Machine host name is: 3INLCSAHA
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|Locale: en_US
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|System Encoding: windows-1252
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'D:\Fun_Projects\USGS_Earthquake_Visualization/'
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'usgs_earthquake_fmev2021.fmw'
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2021.1.1.0'
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 18363)
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|FME Platform: WIN64
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|System Status: 64.39 GB of disk space available in the FME temporary folder (C:\Users\csaha\AppData\Local\Temp\wbrun_1650089223012_59260\fmetmp_b)
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|System Status: 15.88 GB of physical memory available
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|System Status: 39.32 GB of virtual memory available
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|START - ProcessID: 39456, peak process memory usage: 43940 kB, current process memory usage: 43940 kB
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `D:/Fun_Projects/USGS_Earthquake_Visualization\wb-xlate-1650112306777_59260' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{71369782-f797-493b-bb36-4852b68a7106}'
+2022-04-16 18:01:55|   0.0|  0.0|INFORM|FME Configuration: Connection Storage: 'C:\Users\csaha\AppData\Roaming\Safe Software\FME\'
+2022-04-16 18:01:55|   0.3|  0.3|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\csaha\Documents\FME\Formats
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|Shared folders for transformers are : C:\Users\csaha\AppData\Roaming\Safe Software\FME\Packages\21619-win64\transformers;C:\Program Files\FME\transformers;C:\Users\csaha\AppData\Roaming\Safe Software\FME\FME Store\Transformers
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\csaha\Documents\FME\CoordinateSystems
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\csaha\Documents\FME\CoordinateSystemExceptions
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\csaha\Documents\FME\CoordinateSystemGridOverrides
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\csaha\Documents\FME\CsmapTransformationExceptions
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\csaha\Documents\FME\TransformerCategories
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: Reader Keyword is `MULTI_READER'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: Writer Keyword is `NULL_DEST'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `NULL_DEST_DEF'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: Reader type is `MULTI_READER'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: Writer type is `NULL'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: Current working folder is `D:\Fun_Projects\USGS_Earthquake_Visualization'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\csaha\AppData\Local\Temp\wbrun_1650089223012_59260\fmetmp_b', set from environment variable `FME_TEMP'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: Cache folder is 'C:\Users\csaha\AppData\Local\Temp'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: Start freeing memory when the process exceeds 47.65 GB
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME Configuration: Stop freeing memory when the process is below 35.74 GB
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|Creating writer for format: NULL (Nothing)
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `NULL'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|Loaded module 'NULL' from file 'C:\Program Files\FME\plugins/NULL.dll'
+2022-04-16 18:01:55|   0.3|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210302)
+2022-04-16 18:01:55|   0.4|  0.1|INFORM|Creating reader for format: 
+2022-04-16 18:01:55|   0.4|  0.0|INFORM|MULTI_READER(MULTI_READER): Will fail with first member reader failure
+2022-04-16 18:01:55|   0.4|  0.0|INFORM|Using Multi Reader with keyword `MULTI_READER' to read multiple datasets
+2022-04-16 18:01:55|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210302)
+2022-04-16 18:01:55|   0.4|  0.0|INFORM|FME API version of module 'NULL' matches current internal version (3.8 20210302)
+2022-04-16 18:01:55|   0.4|  0.0|INFORM|Loaded module 'Geometry_func' from file 'C:\Program Files\FME\plugins/Geometry_func.dll'
+2022-04-16 18:01:55|   0.4|  0.0|INFORM|FME API version of module 'Geometry_func' matches current internal version (3.8 20210302)
+2022-04-16 18:01:55|   0.4|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2022-04-16 18:01:55|   0.4|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20210302)
+2022-04-16 18:01:55|   0.5|  0.1|INFORM|Loaded module 'QueryFactory' from file 'C:\Program Files\FME\plugins/QueryFactory.dll'
+2022-04-16 18:01:55|   0.5|  0.0|INFORM|FME API version of module 'QueryFactory' matches current internal version (3.8 20210302)
+2022-04-16 18:01:55|   0.5|  0.0|INFORM|Loaded module 'AttributeKeeperFactory' from file 'C:\Program Files\FME\plugins/AttributeKeeperFactory.dll'
+2022-04-16 18:01:55|   0.5|  0.0|INFORM|FME API version of module 'AttributeKeeperFactory' matches current internal version (3.8 20210302)
+2022-04-16 18:01:55|   0.5|  0.0|INFORM|Loaded module 'VertexCreatorFactory' from file 'C:\Program Files\FME\plugins/VertexCreatorFactory.dll'
+2022-04-16 18:01:55|   0.5|  0.0|INFORM|FME API version of module 'VertexCreatorFactory' matches current internal version (3.8 20210302)
+2022-04-16 18:01:55|   0.8|  0.3|INFORM|Emptying factory pipeline
+2022-04-16 18:01:56|   1.0|  0.2|INFORM|The workspace does not contain user Python. FME will attempt to use a Python 3.8+ interpreter
+2022-04-16 18:01:56|   1.0|  0.0|INFORM|Using Python interpreter from `C:\Program Files\FME\fmepython38\python38.dll' with PYTHONHOME `C:\Program Files\FME\fmepython38'
+2022-04-16 18:01:56|   1.0|  0.0|INFORM|Python version 3.8 loaded successfully
+2022-04-16 18:01:56|   1.3|  0.3|INFORM|Potentially retrieving dataset 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv' for reader R_1
+2022-04-16 18:01:58|   1.4|  0.1|INFORM|Retrieved file C:\Users\csaha\AppData\Local\Temp\wbrun_1650089223012_59260\fmetmp_b\TempFS_1650112316153_39456\all_month.csv for reader R_1
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|Creating reader for format: CSV (Comma Separated Value)
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|Loaded module 'CSV2' from file 'C:\Program Files\FME\plugins/CSV2.dll'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20210302)
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|Performing query against CSV2 dataset `https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|Potentially retrieving dataset 'https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_month.csv' for reader R_2
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|Retrieved file C:\Users\csaha\AppData\Local\Temp\wbrun_1650089223012_59260\fmetmp_b\TempFS_1650112316153_39456\all_month.csv for reader R_2
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|Creating reader for format: CSV (Comma Separated Value)
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `CSV2'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|FME API version of module 'CSV2' matches current internal version (3.8 20210302)
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Opening dataset 'C:\Users\csaha\AppData\Local\Temp\wbrun_1650089223012_59260\fmetmp_b\TempFS_1650112316153_39456\all_month.csv'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_TRIM_FEATURE_TYPE_NAME' has the value 'Yes'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_SUPPORTED_READER_ARCHIVE_EXTENSIONS' has the value 'csv.gz,txt.gz'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_DELIMITER' has the value 'auto'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_FIELD_NAMES_LINE' has the value '1'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_DATA_START_LINE' has the value '2'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_SCAN_MAX_ROWS' has the value '10000'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_READ_SKIPPED_LINES' has the value 'No'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_ENCODING' has the value 'windows-1252'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive 'FME_NAMES_ENCODING' has the value 'windows-1252'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_SKIP_DUPLICATE_DELIMITERS' has the value 'No'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_CHARACTER' has the value '"'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_FIELD_QUALIFIER_ESCAPE_CHARACTER' has the value '"'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_QUALIFIERS' has the value 'Yes'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_VALUE_QUALIFIERS' has the value 'Yes'
+2022-04-16 18:01:58|   1.4|  0.0|INFORM|CSV reader: Directive '_PRESERVE_SOURCE_ENCODING' has the value 'No'
+2022-04-16 18:01:58|   1.5|  0.1|INFORM|CSV reader: Directive '_CASE_SENSITIVE_FIELD_NAMES' has the value 'Yes'
+2022-04-16 18:01:58|   1.5|  0.0|INFORM|CSV reader: Directive '_ENFORCE_STRICT_SCHEMA' has the value 'No'
+2022-04-16 18:01:58|   1.5|  0.0|INFORM|CSV reader: Directive '_SCAN_TYPES' has the value 'Yes'
+2022-04-16 18:01:58|   1.5|  0.0|INFORM|CSV reader: Directive '_TYPE_ATTRIBUTE_HANDLING' has the value 'STANDARD_TYPES'
+2022-04-16 18:01:58|   1.5|  0.0|INFORM|CSV reader: Directive '_STRING_TYPE_ATTRIBUTE_HANDLING' has the value 'EXPLICIT_WIDTH'
+2022-04-16 18:01:58|   1.5|  0.0|INFORM|CSV reader: Directive '_SCAN_ADDITIONAL_FIELDS' has the value 'No'
+2022-04-16 18:01:58|   1.5|  0.0|INFORM|CSV reader: Directive '_DATE_INPUT_FORMAT' has the value 'FME'
+2022-04-16 18:01:58|   1.5|  0.0|INFORM|CSV reader: Directive '_CHUNK_SIZE' has the value '100000'
+2022-04-16 18:01:58|   1.5|  0.0|INFORM|CSV reader: Directive '_TRIM_FIELD_NAME_WHITESPACE' has the value 'Yes'
+2022-04-16 18:01:58|   1.5|  0.0|INFORM|CSV reader: Directive '_READ_EMPTY_VALUES_AS' has the value 'Null'
+2022-04-16 18:01:58|   1.5|  0.0|INFORM|CSV reader: Directive '_REPLACE_ATTR_NAME_INVALID_CHARS' has the value 'Yes'
+2022-04-16 18:01:58|   2.1|  0.6|INFORM|FME Configuration: Source coordinate system for reader R_2[CSV2] set to `LL-WGS84' as read from input data
+2022-04-16 18:01:58|   2.1|  0.0|INFORM|Coordinate System `LL-WGS84' parameters: CS_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-04-16 18:01:59|   2.5|  0.4|INFORM|FME Configuration: Using FME Reprojection Engine
+2022-04-16 18:01:59|   2.5|  0.0|INFORM|GOIDGenerator: Splitting bulk features into individual features
+2022-04-16 18:01:59|   2.5|  0.0|INFORM|Creating writer for format: 
+2022-04-16 18:01:59|   2.5|  0.0|INFORM|Using MultiWriter with keyword `FeatureWriter' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2022-04-16 18:01:59|   2.7|  0.2|INFORM|FME Configuration: Using connection values from 'mygis' for FeatureWriter_0
+2022-04-16 18:01:59|   2.7|  0.0|INFORM|Creating writer for format: PostGIS
+2022-04-16 18:01:59|   2.9|  0.2|INFORM|Trying to find a DYNAMIC plugin for writer named `POSTGIS'
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|Loaded module 'POSTGIS' from file 'C:\Program Files\FME\plugins/POSTGIS.dll'
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|FME API version of module 'POSTGIS' matches current internal version (3.8 20210302)
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|FME Configuration: Destination coordinate system set to `LL-WGS84'
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|Coordinate System `LL-WGS84' parameters: CS_NAME=`LL-WGS84' DESC_NM=`WGS84 Lat/Longs' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' PROJ=`LL' QUAD=`1' SCL_RED=`1' UNIT=`DEGREE'
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|FME API version of module 'POSTGIS' matches current internal version (3.8 20210302)
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|Writer `FeatureWriter_0' of type `POSTGIS' using group definition keyword `FeatureWriter_0_DEF'
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|FME API version of module 'POSTGIS' matches current internal version (3.8 20210302)
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|Opening POSTGIS writer for dataset 'mygis'...
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|PostGIS client encoding: 'UTF8'
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|PostgreSQL 14.2, compiled by Visual C++ build 1914, 64-bit
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|3.2 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|Testing for the existence of table 'public.output'...
+2022-04-16 18:01:59|   2.9|  0.0|INFORM|Creating table 'public.output'...
+2022-04-16 18:02:00|   3.2|  0.3|INFORM|POSTGIS Writer: Creating 'unquoted WKB' geometry processor for feature type 'public.output'
+2022-04-16 18:02:00|   3.2|  0.0|INFORM|POSTGIS Writer: Creating 'streaming Bulk Copy' feature type processor for feature type 'public.output'
+2022-04-16 18:02:00|   3.5|  0.3|INFORM|Committed transaction at feature '1000'
+2022-04-16 18:02:00|   3.9|  0.4|INFORM|Committed transaction at feature '2000'
+2022-04-16 18:02:01|   4.2|  0.3|INFORM|Committed transaction at feature '3000'
+2022-04-16 18:02:01|   4.5|  0.3|INFORM|Committed transaction at feature '4000'
+2022-04-16 18:02:01|   4.8|  0.3|INFORM|Committed transaction at feature '5000'
+2022-04-16 18:02:02|   5.1|  0.3|INFORM|Committed transaction at feature '6000'
+2022-04-16 18:02:02|   5.4|  0.3|INFORM|Committed transaction at feature '7000'
+2022-04-16 18:02:02|   5.7|  0.3|INFORM|Committed transaction at feature '8000'
+2022-04-16 18:02:03|   6.1|  0.4|INFORM|Committed transaction at feature '9000'
+2022-04-16 18:02:03|   6.2|  0.1|STATS |Creator_XML_Creator (CreationFactory): Created 1 features
+2022-04-16 18:02:03|   6.2|  0.0|STATS |Creator_Cloner (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |Creator_CREATED Feature Counter -1 20 (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |Creator_CREATED Brancher -1 20 (BranchingFactory): Branched 1 input feature -- 1 feature routed to the target factory, and 0 features routed to the fallback factory.
+2022-04-16 18:02:03|   6.2|  0.0|STATS |_CREATOR_BRANCH_TARGET (TeeFactory): Cloned 1 input feature(s) into 1 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |FeatureReader_CSV Feature Counter -1 23 (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |FeatureReader_<REJECTED> Feature Counter -1 2147876867 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |FeatureReader_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |AttributeKeeper_OUTPUT Feature Counter -1 17 (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |AttributeRounder (TestFactory): Tested 9374 input feature(s) -- 9374 feature(s) passed and 0 feature(s) failed
+2022-04-16 18:02:03|   6.2|  0.0|STATS |AttributeRounder_AttributeRounder (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |AttributeRounder_OUTPUT Feature Counter -1 16 (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |GOIDGenerator (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |GOIDGenerator_OUTPUT Feature Counter -1 22 (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |VertexCreator_OUTPUT Feature Counter -1 21 (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |VertexCreator_<REJECTED> Feature Counter -1 2147680275 (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |VertexCreator_<Rejected> (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |CoordinateSystemSetter (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |CoordinateSystemSetter_OUTPUT Feature Counter -1 28 (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |2DForcer (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |2DForcer_2D Feature Counter -1 30 (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |GeometryFilter_InputPassThrough (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |GeometryFilter_RouterPrepper (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |GeometryFilter_Router (TestFactory): Tested 9374 input feature(s) -- 9374 feature(s) passed and 0 feature(s) failed
+2022-04-16 18:02:03|   6.2|  0.0|STATS |GeometryFilter <UNFILTERED> Transformer Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|STATS |GeometryFilter_POINT Feature Counter -1 29 (TeeFactory): Cloned 9374 input feature(s) into 9374 output feature(s)
+2022-04-16 18:02:03|   6.2|  0.0|INFORM|Creating 'GIST' index on column "geom" of table 'public.output'...
+2022-04-16 18:02:03|   6.2|  0.0|INFORM|Successfully closed POSTGIS database writer
+2022-04-16 18:02:03|   6.2|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-04-16 18:02:03|   6.2|  0.0|INFORM|Feature output statistics for `POSTGIS' writer using keyword `FeatureWriter_0':
+2022-04-16 18:02:03|   6.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-04-16 18:02:03|   6.2|  0.0|STATS |                               Features Written
+2022-04-16 18:02:03|   6.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-04-16 18:02:03|   6.2|  0.0|STATS |public.output                                                             9374
+2022-04-16 18:02:03|   6.2|  0.0|STATS |==============================================================================
+2022-04-16 18:02:03|   6.2|  0.0|STATS |Total Features Written                                                    9374
+2022-04-16 18:02:03|   6.2|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-04-16 18:02:03|   6.2|  0.0|STATS |Destination Feature Type Routing Correlator (RoutingFactory): Tested 0 input feature(s), wrote 0 output feature(s): 0 matched merge filters, 0 were routed to output, 0 could not be routed.
+2022-04-16 18:02:03|   6.3|  0.1|STATS |Final Output Nuker (TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2022-04-16 18:02:03|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-04-16 18:02:03|   6.3|  0.0|STATS |                            Features Read Summary
+2022-04-16 18:02:03|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-04-16 18:02:03|   6.3|  0.0|STATS |==============================================================================
+2022-04-16 18:02:03|   6.3|  0.0|STATS |Total Features Read                                                          0
+2022-04-16 18:02:03|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-04-16 18:02:03|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-04-16 18:02:03|   6.3|  0.0|STATS |                           Features Written Summary
+2022-04-16 18:02:03|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-04-16 18:02:03|   6.3|  0.0|STATS |==============================================================================
+2022-04-16 18:02:03|   6.3|  0.0|STATS |Total Features Written                                                       0
+2022-04-16 18:02:03|   6.3|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2022-04-16 18:02:03|   6.3|  0.0|INFORM|Translation was SUCCESSFUL with 0 warning(s) (0 feature(s) output)
+2022-04-16 18:02:03|   6.3|  0.0|INFORM|FME Session Duration: 8.3 seconds. (CPU: 4.7s user, 1.6s system)
+2022-04-16 18:02:03|   6.3|  0.0|INFORM|END - ProcessID: 39456, peak process memory usage: 157152 kB, current process memory usage: 115900 kB

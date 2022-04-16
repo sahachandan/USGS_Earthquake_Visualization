@@ -12,8 +12,8 @@
 #!   DESCRIPTION=""
 #!   DESTINATION="NONE"
 #!   DESTINATION_ROUTING_FILE=""
-#!   DOC_EXTENTS="3899.58 886.078"
-#!   DOC_TOP_LEFT="47 -348.39"
+#!   DOC_EXTENTS="2996.79 700.889"
+#!   DOC_TOP_LEFT="37.2343 -365.889"
 #!   END_PYTHON=""
 #!   END_TCL=""
 #!   EXPLICIT_BOOKMARK_ORDER="false"
@@ -29,7 +29,7 @@
 #!   HISTORY=""
 #!   IGNORE_READER_FAILURE="No"
 #!   LAST_SAVE_BUILD="FME(R) 2021.1.1.0 (20210730 - Build 21619 - WIN64)"
-#!   LAST_SAVE_DATE="2022-04-16T17:15:30"
+#!   LAST_SAVE_DATE="2022-04-16T18:03:07"
 #!   LOG_FILE=""
 #!   LOG_MAX_RECORDED_FEATURES="200"
 #!   MARKDOWN_DESCRIPTION=""
@@ -48,10 +48,10 @@
 #!   TITLE=""
 #!   USAGE=""
 #!   USE_MARKDOWN=""
-#!   VIEW_POSITION="930.487 249.3"
+#!   VIEW_POSITION="-537.115 595.709"
 #!   WARN_INVALID_XFORM_PARAM="Yes"
 #!   WORKSPACE_VERSION="1"
-#!   ZOOM_SCALE="89"
+#!   ZOOM_SCALE="64"
 #! >
 #! <DATASETS>
 #! </DATASETS>
@@ -69,6 +69,14 @@
 #!   DATASET="FeatureReader/all_month.csv"
 #! />
 #! </READER_DATASETS>
+#! <CONNECTIONS>
+#! <CONNECTION
+#!   NAME="mygis"
+#!   TYPE="DATABASE"
+#!   FAMILY="PostgreSQL"
+#!   USAGE="INTERNAL"
+#! />
+#! </CONNECTIONS>
 #! </FMESERVER>
 #! <GLOBAL_PARAMETERS>
 #! </GLOBAL_PARAMETERS>
@@ -89,8 +97,8 @@
 #!   IDENTIFIER="2"
 #!   TYPE="Creator"
 #!   VERSION="5"
-#!   POSITION="47 344.25"
-#!   BOUNDING_RECT="47 344.25 430 71"
+#!   POSITION="37.234277342773396 303.33500700175546"
+#!   BOUNDING_RECT="37.234277342773396 303.33500700175546 430 71"
 #!   ORDER="500000000000001"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -114,8 +122,8 @@
 #!   IDENTIFIER="3"
 #!   TYPE="FeatureReader"
 #!   VERSION="13"
-#!   POSITION="564.72949437359512 27.60551262816"
-#!   BOUNDING_RECT="564.72949437359512 27.60551262816 430 71"
+#!   POSITION="628.20669164556796 303.33500700175546"
+#!   BOUNDING_RECT="628.20669164556796 303.33500700175546 430 71"
 #!   ORDER="500000000000003"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -284,8 +292,8 @@
 #!   IDENTIFIER="14"
 #!   TYPE="AttributeRounder"
 #!   VERSION="4"
-#!   POSITION="1879 335"
-#!   BOUNDING_RECT="1879 335 454 71"
+#!   POSITION="1278.4080565805662 115.27124021240218"
+#!   BOUNDING_RECT="1278.4080565805662 115.27124021240218 454 71"
 #!   ORDER="500000000000009"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -315,8 +323,8 @@
 #!   IDENTIFIER="15"
 #!   TYPE="GOIDGenerator"
 #!   VERSION="0"
-#!   POSITION="2505 335"
-#!   BOUNDING_RECT="2505 335 454 71"
+#!   POSITION="1278.4080565805662 -80.043212932129222"
+#!   BOUNDING_RECT="1278.4080565805662 -80.043212932129222 454 71"
 #!   ORDER="500000000000012"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
@@ -342,42 +350,13 @@
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GOIDGenerator"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="18"
-#!   TYPE="Inspector"
-#!   VERSION="5"
-#!   POSITION="3384.9508076081461 537.68753513377828"
-#!   BOUNDING_RECT="3384.9508076081461 537.68753513377828 561.63124999999991 71"
-#!   ORDER="500000000000013"
-#!   PARMS_EDITED="true"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="21619"
-#! >
-#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GOIDGenerator_Output"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
 #!   IDENTIFIER="12"
 #!   TYPE="FeatureWriter"
 #!   VERSION="0"
-#!   POSITION="3195.2566716678398 335"
-#!   BOUNDING_RECT="3195.2566716678398 335 430 71"
+#!   POSITION="2604.0288168331108 335"
+#!   BOUNDING_RECT="2604.0288168331108 335 430 71"
 #!   ORDER="500000000000014"
-#!   PARMS_EDITED="false"
+#!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="21619"
 #! >
@@ -387,87 +366,203 @@
 #!     <XFORM_ATTR ATTR_NAME="_feature_types{}.name" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_dataset" IS_USER_CREATED="false" FEAT_INDEX="0" />
 #!     <XFORM_ATTR ATTR_NAME="_total_features_written" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE="LL-WGS84"/>
+#!     <XFORM_PARM PARM_NAME="DATASET" PARM_VALUE="mygis"/>
 #!     <XFORM_PARM PARM_NAME="DATASET_ATTR" PARM_VALUE="_dataset"/>
 #!     <XFORM_PARM PARM_NAME="DYNGROUP_0" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPES_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="FEATURE_TYPE_LIST_ATTR" PARM_VALUE="_feature_types"/>
-#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="FORMAT" PARM_VALUE="POSTGIS"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_DIRECTIVES" PARM_VALUE="RUNTIME_MACROS,STRICT_TEMPORAL_TYPE_HANDLING&lt;comma&gt;Yes&lt;comma&gt;NAMED_CONNECTION&lt;comma&gt;mygis&lt;comma&gt;SPATIAL_COLUMN_TYPE&lt;comma&gt;geometry&lt;comma&gt;SPATIAL_COLUMN_NAME&lt;comma&gt;geom&lt;comma&gt;GENERIC_GEOMETRY&lt;comma&gt;yes&lt;comma&gt;LOWERCASE_ATTRIBUTE_NAMES&lt;comma&gt;Yes&lt;comma&gt;COORDINATE_SYSTEM_GRANULARITY&lt;comma&gt;FEATURE_TYPE&lt;comma&gt;ADVANCED&lt;comma&gt;&lt;comma&gt;BULK_COPY&lt;comma&gt;YES&lt;comma&gt;INSERT_TEXT_GEOMETRY&lt;comma&gt;NO&lt;comma&gt;START_TRANSACTION&lt;comma&gt;0&lt;comma&gt;TRANSACTION_INTERVAL&lt;comma&gt;1000&lt;comma&gt;BEGIN_SQL&lt;comma&gt;&lt;comma&gt;END_SQL&lt;comma&gt;,METAFILE,POSTGIS"/>
+#!     <XFORM_PARM PARM_NAME="FORMAT_PARAMS" PARM_VALUE="POSTGIS_BEGIN_SQL,&quot;OPTIONAL TEXT_EDIT_SQL_CFG_ENCODED MODE,SQL;FORMAT,POSTGIS&quot;,POSTGIS&lt;space&gt;SQL&lt;space&gt;To&lt;space&gt;Run&lt;space&gt;Before&lt;space&gt;Write,POSTGIS_END_SQL,&quot;OPTIONAL TEXT_EDIT_SQL_CFG_ENCODED MODE,SQL;FORMAT,POSTGIS&quot;,POSTGIS&lt;space&gt;SQL&lt;space&gt;To&lt;space&gt;Run&lt;space&gt;After&lt;space&gt;Write,POSTGIS_LOWERCASE_ATTRIBUTE_NAMES,&quot;OPTIONAL CHECKBOX Yes%No&quot;,POSTGIS&lt;space&gt;Lower&lt;space&gt;Case&lt;space&gt;Attribute&lt;space&gt;Names:,POSTGIS_SPATIAL_COLUMN_TYPE,&quot;OPTIONAL LOOKUP_CHOICE geometry%geography&quot;,POSTGIS&lt;space&gt;Spatial&lt;space&gt;Column&lt;space&gt;Type:,POSTGIS_TRANSACTION_INTERVAL,&quot;OPTIONAL TEXT&quot;,POSTGIS&lt;space&gt;Features&lt;space&gt;Per&lt;space&gt;Transaction,POSTGIS_STRICT_TEMPORAL_TYPE_HANDLING,&quot;OPTIONAL NO_EDIT TEXT&quot;,POSTGIS&lt;space&gt;,POSTGIS_NAMED_CONNECTION,&quot;IGNORE TEXT&quot;,POSTGIS&lt;space&gt;Connection:,POSTGIS_ADVANCED,&quot;OPTIONAL DISCLOSUREGROUP BULK_COPY%INSERT_TEXT_GEOMETRY%START_TRANSACTION%TRANSACTION_INTERVAL%BEGIN_SQL%END_SQL&quot;,POSTGIS&lt;space&gt;Advanced,POSTGIS_START_TRANSACTION,&quot;OPTIONAL TEXT&quot;,POSTGIS&lt;space&gt;Starting&lt;space&gt;Feature:,POSTGIS_GENERIC_GEOMETRY,&quot;OPTIONAL CHECKBOX yes%no&quot;,POSTGIS&lt;space&gt;Create&lt;space&gt;Generic&lt;space&gt;Spatial&lt;space&gt;Columns:,POSTGIS_INSERT_TEXT_GEOMETRY,&quot;OPTIONAL CHOICE YES%NO&quot;,POSTGIS&lt;space&gt;Insert&lt;space&gt;WKT,POSTGIS_COORDINATE_SYSTEM_GRANULARITY,&quot;OPTIONAL NO_EDIT TEXT&quot;,POSTGIS&lt;space&gt;,POSTGIS_BULK_COPY,&quot;OPTIONAL CHOICE YES%NO&quot;,POSTGIS&lt;space&gt;Bulk&lt;space&gt;Insert,POSTGIS_SPATIAL_COLUMN_NAME,&quot;OPTIONAL TEXT&quot;,POSTGIS&lt;space&gt;Spatial&lt;space&gt;Column:"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
 #!     <XFORM_PARM PARM_NAME="MORE_SUMMARY_ATTRS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="NO_OUTPUT_PORTS" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="OUTPUTPORTS_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS" PARM_VALUE="&quot;&quot;"/>
 #!     <XFORM_PARM PARM_NAME="OUTPUT_PORTS_MODE" PARM_VALUE="NO_OUTPUT_PORTS"/>
 #!     <XFORM_PARM PARM_NAME="PER_EACH_INPUT" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_ADVANCED" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_BEGIN_SQL" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_BULK_COPY" PARM_VALUE="YES"/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_COORDINATE_SYSTEM_GRANULARITY" PARM_VALUE="FEATURE_TYPE"/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_END_SQL" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_GENERIC_GEOMETRY" PARM_VALUE="yes"/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_INSERT_TEXT_GEOMETRY" PARM_VALUE="NO"/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_LOWERCASE_ATTRIBUTE_NAMES" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_NAMED_CONNECTION" PARM_VALUE="mygis"/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_SPATIAL_COLUMN_NAME" PARM_VALUE="geom"/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_SPATIAL_COLUMN_TYPE" PARM_VALUE="geometry"/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_START_TRANSACTION" PARM_VALUE="0"/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_STRICT_TEMPORAL_TYPE_HANDLING" PARM_VALUE="Yes"/>
+#!     <XFORM_PARM PARM_NAME="POSTGIS_TRANSACTION_INTERVAL" PARM_VALUE="1000"/>
+#!     <XFORM_PARM PARM_NAME="SELECTED_PORTS" PARM_VALUE="&lt;Unused&gt;"/>
 #!     <XFORM_PARM PARM_NAME="SUMMARY_ATTRS_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TOTAL_FEATURES_WRITTEN_ATTR" PARM_VALUE="_total_features_written"/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="WRITER_DIRECTIVES" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_PARAMS" PARM_VALUE="Output:Output,ftp_feature_type_name,Output,ftp_writer,,ftp_geometry,,ftp_attribute_source,0,ftp_user_attributes,id&lt;comma&gt;char&lt;lt&gt;openparen&lt;gt&gt;255&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;mag&lt;comma&gt;number&lt;lt&gt;openparen&lt;gt&gt;31&lt;lt&gt;comma&lt;gt&gt;15&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;place&lt;comma&gt;char&lt;lt&gt;openparen&lt;gt&gt;255&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;time&lt;comma&gt;number&lt;lt&gt;openparen&lt;gt&gt;20&lt;lt&gt;comma&lt;gt&gt;0&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;updated&lt;comma&gt;number&lt;lt&gt;openparen&lt;gt&gt;20&lt;lt&gt;comma&lt;gt&gt;0&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;felt&lt;comma&gt;number&lt;lt&gt;openparen&lt;gt&gt;20&lt;lt&gt;comma&lt;gt&gt;0&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;cdi&lt;comma&gt;number&lt;lt&gt;openparen&lt;gt&gt;31&lt;lt&gt;comma&lt;gt&gt;15&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;alert&lt;comma&gt;char&lt;lt&gt;openparen&lt;gt&gt;255&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;pnt_goid&lt;comma&gt;"/>
+#!     <XFORM_PARM PARM_NAME="WRITER_FEATURE_TYPE_PARAMS" PARM_VALUE="output:Output,ftp_feature_type_name,output,ftp_feature_type_qualifier,public,ftp_writer,POSTGIS,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;,ftp_attribute_source,0,ftp_user_attributes,time&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;25&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;latitude&lt;comma&gt;float8&lt;comma&gt;longitude&lt;comma&gt;float8&lt;comma&gt;depth&lt;comma&gt;float8&lt;comma&gt;mag&lt;comma&gt;float8&lt;comma&gt;magtype&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;6&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;id&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;13&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;updated&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;25&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;place&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;60&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;type&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;13&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;status&lt;comma&gt;varchar&lt;lt&gt;openparen&lt;gt&gt;10&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;pnt_goid&lt;comma&gt;text,ftp_user_attribute_values,&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;&lt;comma&gt;,ftp_format_parameters,fme_configuration_group&lt;comma&gt;&lt;comma&gt;fme_configuration_common_group&lt;comma&gt;&lt;comma&gt;fme_feature_operation&lt;comma&gt;INSERT&lt;comma&gt;fme_table_handling&lt;comma&gt;CREATE_IF_MISSING&lt;comma&gt;fme_update_geometry&lt;comma&gt;&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;&lt;comma&gt;fme_selection_group&lt;comma&gt;&lt;comma&gt;fme_selection_method&lt;comma&gt;&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;&lt;comma&gt;fme_match_columns&lt;comma&gt;&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;&lt;comma&gt;fme_where_builder_clause&lt;comma&gt;&lt;lt&gt;lt&lt;gt&gt;Unused&lt;lt&gt;gt&lt;gt&gt;&lt;comma&gt;fme_table_creation_group&lt;comma&gt;&lt;comma&gt;postgis_create_gist_index&lt;comma&gt;YES&lt;comma&gt;fme_spatial_group&lt;comma&gt;&lt;comma&gt;postgis_spatial_column_type&lt;comma&gt;geometry&lt;comma&gt;postgis_spatial_column&lt;comma&gt;geom&lt;comma&gt;postgis_srid&lt;comma&gt;&lt;comma&gt;fme_advanced_group&lt;comma&gt;&lt;comma&gt;postgis_vacuum_analyze&lt;comma&gt;NO&lt;comma&gt;postgis_allow_serial_writing&lt;comma&gt;NO"/>
 #!     <XFORM_PARM PARM_NAME="WRITER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="WRITER_METAFILE" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="WRITER_METAFILE" PARM_VALUE="ATTRIBUTE_CASE,LOWER,ATTRIBUTE_INVALID_CHARS,.&lt;space&gt;%-#&lt;openbracket&gt;&lt;closebracket&gt;&lt;quote&gt;&lt;openparen&gt;&lt;closeparen&gt;!?*&lt;apos&gt;&lt;amp&gt;+&lt;backslash&gt;&lt;solidus&gt;,ATTRIBUTE_LENGTH,63,ATTR_TYPE_MAP,bool&lt;comma&gt;fme_boolean&lt;comma&gt;char&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_char&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_varchar&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;text&lt;comma&gt;fme_buffer&lt;comma&gt;xml&lt;comma&gt;fme_xml&lt;comma&gt;json&lt;comma&gt;fme_json&lt;comma&gt;jsonb&lt;comma&gt;fme_json&lt;comma&gt;bytea&lt;comma&gt;fme_binarybuffer&lt;comma&gt;bytea&lt;comma&gt;fme_varbinary&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;bytea&lt;comma&gt;fme_binary&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;int2&lt;comma&gt;fme_int16&lt;comma&gt;int2&lt;comma&gt;fme_int8&lt;comma&gt;int2&lt;comma&gt;fme_uint8&lt;comma&gt;int4&lt;comma&gt;fme_int32&lt;comma&gt;int4&lt;comma&gt;fme_uint16&lt;comma&gt;int8&lt;comma&gt;fme_int64&lt;comma&gt;int8&lt;comma&gt;fme_uint32&lt;comma&gt;&lt;quote&gt;numeric&lt;openparen&gt;width&lt;comma&gt;decimal&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;fme_decimal&lt;openparen&gt;width&lt;comma&gt;decimal&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;&lt;quote&gt;numeric&lt;openparen&gt;20&lt;comma&gt;0&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;fme_uint64&lt;comma&gt;oid&lt;comma&gt;fme_uint32&lt;comma&gt;serial&lt;comma&gt;fme_int32&lt;comma&gt;float4&lt;comma&gt;fme_real32&lt;comma&gt;money&lt;comma&gt;fme_real32&lt;comma&gt;float8&lt;comma&gt;fme_real64&lt;comma&gt;date&lt;comma&gt;fme_date&lt;comma&gt;time&lt;comma&gt;fme_time&lt;comma&gt;timetz&lt;comma&gt;fme_time&lt;comma&gt;timestamp&lt;comma&gt;fme_datetime&lt;comma&gt;timestamptz&lt;comma&gt;fme_datetime&lt;comma&gt;uuid&lt;comma&gt;fme_buffer&lt;comma&gt;bit&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_char&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;varbit&lt;comma&gt;fme_buffer&lt;comma&gt;varbit&lt;openparen&gt;width&lt;closeparen&gt;&lt;comma&gt;fme_varchar&lt;openparen&gt;width&lt;closeparen&gt;,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,&lt;backslash&gt;&lt;backslash&gt;&lt;solidus&gt;&lt;quote&gt;:?*&lt;lt&gt;&lt;gt&gt;|&lt;openbracket&gt;%#&lt;space&gt;&lt;apos&gt;&lt;amp&gt;+&lt;closebracket&gt;,FEATURE_TYPE_LENGTH,63,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile&lt;backslash&gt;POSTGIS.fmf,FORMAT_NAME,POSTGIS,GEOM_MAP,postgis_multipoint&lt;comma&gt;fme_point&lt;comma&gt;postgis_point&lt;comma&gt;fme_point&lt;comma&gt;postgis_multilinestring&lt;comma&gt;fme_line&lt;comma&gt;postgis_multicurve&lt;comma&gt;fme_line&lt;comma&gt;postgis_linestring&lt;comma&gt;fme_line&lt;comma&gt;postgis_multilinestring&lt;comma&gt;fme_line&lt;comma&gt;postgis_circularstring&lt;comma&gt;fme_line&lt;comma&gt;postgis_compoundcurve&lt;comma&gt;fme_line&lt;comma&gt;postgis_multipolygon&lt;comma&gt;fme_polygon&lt;comma&gt;postgis_multisurface&lt;comma&gt;fme_polygon&lt;comma&gt;postgis_polygon&lt;comma&gt;fme_polygon&lt;comma&gt;postgis_multipolygon&lt;comma&gt;fme_polygon&lt;comma&gt;postgis_curvepolygon&lt;comma&gt;fme_polygon&lt;comma&gt;postgis_multipolygon&lt;comma&gt;fme_rectangle&lt;comma&gt;postgis_multipolygon&lt;comma&gt;fme_rounded_rectangle&lt;comma&gt;postgis_multipoint&lt;comma&gt;fme_text&lt;comma&gt;postgis_multipolygon&lt;comma&gt;fme_ellipse&lt;comma&gt;postgis_multilinestring&lt;comma&gt;fme_arc&lt;comma&gt;postgis_triangle&lt;comma&gt;fme_polygon&lt;comma&gt;postgis_polyhedralsurface&lt;comma&gt;fme_surface&lt;comma&gt;postgis_polyhedralsurface&lt;comma&gt;fme_solid&lt;comma&gt;postgis_tin&lt;comma&gt;fme_surface&lt;comma&gt;postgis_none&lt;comma&gt;fme_no_geom&lt;comma&gt;postgis_geometry&lt;comma&gt;fme_no_geom&lt;comma&gt;postgis_geometrycollection&lt;comma&gt;fme_collection&lt;comma&gt;postgis_multipolygon&lt;comma&gt;fme_raster&lt;comma&gt;postgis_multipolygon&lt;comma&gt;fme_point_cloud&lt;comma&gt;postgis_multipolygon&lt;comma&gt;fme_voxel_grid&lt;comma&gt;postgis_none&lt;comma&gt;fme_feature_table,READER_ATTR_INDEX_TYPES,BTree&lt;comma&gt;RTree&lt;comma&gt;Hash&lt;comma&gt;PrimaryKey,READER_USES_DEF,yes,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,yes,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,,WRITER,POSTGIS,WRITER_ATTR_INDEX_TYPES,BTree&lt;comma&gt;RTree&lt;comma&gt;Hash&lt;comma&gt;PrimaryKey,WRITER_DEFLINE_PARMS,&lt;quote&gt;GUI&lt;space&gt;NAMEDGROUP&lt;space&gt;fme_configuration_group&lt;space&gt;fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group&lt;space&gt;Table&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;NAMEDGROUP&lt;space&gt;fme_configuration_common_group&lt;space&gt;fme_feature_operation%fme_table_handling%mie_pack%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group&lt;space&gt;General&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;ACTIVECHOICE_LOOKUP&lt;space&gt;fme_feature_operation&lt;space&gt;Insert&lt;comma&gt;INSERT&lt;comma&gt;fme_update_geometry&lt;comma&gt;fme_selection_group&lt;comma&gt;mie_pack%Update&lt;comma&gt;UPDATE&lt;comma&gt;++fme_table_handling+USE_EXISTING&lt;comma&gt;++fme_selection_group+FME_DISCLOSURE_OPEN%Delete&lt;comma&gt;DELETE&lt;comma&gt;++fme_table_handling+USE_EXISTING&lt;comma&gt;fme_update_geometry&lt;comma&gt;++fme_selection_group+FME_DISCLOSURE_OPEN&lt;comma&gt;fme_spatial_group&lt;comma&gt;fme_advanced_group&lt;comma&gt;oracle_sequenced_cols%&lt;lt&gt;at&lt;gt&gt;Value&lt;lt&gt;openparen&lt;gt&gt;fme_db_operation&lt;lt&gt;closeparen&lt;gt&gt;&lt;comma&gt;MULTIPLE&lt;comma&gt;++fme_table_handling+USE_EXISTING&lt;comma&gt;++fme_selection_group+FME_DISCLOSURE_OPEN&lt;space&gt;Feature&lt;space&gt;Operation&lt;quote&gt;&lt;comma&gt;INSERT&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;ACTIVECHOICE_LOOKUP&lt;space&gt;fme_table_handling&lt;space&gt;Use&lt;lt&gt;space&lt;gt&gt;Existing&lt;comma&gt;USE_EXISTING&lt;comma&gt;fme_table_creation_group%Create&lt;lt&gt;space&lt;gt&gt;If&lt;lt&gt;space&lt;gt&gt;Needed&lt;comma&gt;CREATE_IF_MISSING%Drop&lt;lt&gt;space&lt;gt&gt;and&lt;lt&gt;space&lt;gt&gt;Create&lt;comma&gt;DROP_CREATE%Truncate&lt;lt&gt;space&lt;gt&gt;Existing&lt;comma&gt;TRUNCATE_EXISTING&lt;comma&gt;fme_table_creation_group&lt;space&gt;Table&lt;space&gt;Handling&lt;quote&gt;&lt;comma&gt;CREATE_IF_MISSING&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;WHOLE_LINE&lt;space&gt;LOOKUP_CHOICE&lt;space&gt;fme_update_geometry&lt;space&gt;Yes&lt;comma&gt;YES%No&lt;comma&gt;NO&lt;space&gt;Update&lt;space&gt;Spatial&lt;space&gt;Column&lt;openparen&gt;s&lt;closeparen&gt;&lt;quote&gt;&lt;comma&gt;YES&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;DISCLOSUREGROUP&lt;space&gt;fme_selection_group&lt;space&gt;fme_selection_method&lt;space&gt;Row&lt;space&gt;Selection&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;WHOLE_LINE&lt;space&gt;RADIOPARAMETERGROUP&lt;space&gt;fme_selection_method&lt;space&gt;fme_match_columns&lt;comma&gt;MATCH_COLUMNS%fme_where_builder_clause&lt;comma&gt;BUILDER&lt;space&gt;Row&lt;space&gt;Selection&lt;space&gt;Method&lt;quote&gt;&lt;comma&gt;MATCH_COLUMNS&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;WHOLE_LINE&lt;space&gt;ATTRLIST_COMMAS&lt;space&gt;fme_match_columns&lt;space&gt;Match&lt;space&gt;Columns&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;WHOLE_LINE&lt;space&gt;TEXT_EDIT_SQL_CFG_OR_ATTR&lt;space&gt;fme_where_builder_clause&lt;space&gt;MODE&lt;comma&gt;WHERE&lt;space&gt;WHERE&lt;space&gt;Clause&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;DISCLOSUREGROUP&lt;space&gt;fme_table_creation_group&lt;space&gt;postgis_create_gist_index&lt;space&gt;Table&lt;space&gt;Creation&lt;space&gt;Parameters&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;CHOICE&lt;space&gt;postgis_create_gist_index&lt;space&gt;YES%NO&lt;space&gt;Create&lt;space&gt;GiST&lt;space&gt;Index&lt;quote&gt;&lt;comma&gt;YES&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;NAMEDGROUP&lt;space&gt;fme_spatial_group&lt;space&gt;postgis_spatial_column_type%postgis_spatial_column%postgis_srid&lt;space&gt;Spatial&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;LOOKUP_CHOICE&lt;space&gt;postgis_spatial_column_type&lt;space&gt;Geometry&lt;comma&gt;geometry%Geography&lt;comma&gt;geography&lt;space&gt;Spatial&lt;space&gt;Type&lt;quote&gt;&lt;comma&gt;geometry&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;OPTIONAL&lt;space&gt;WHOLE_LINE&lt;space&gt;TEXT&lt;space&gt;postgis_spatial_column&lt;space&gt;Spatial&lt;space&gt;Column&lt;quote&gt;&lt;comma&gt;geom&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;OPTIONAL&lt;space&gt;FLOAT&lt;space&gt;postgis_srid&lt;space&gt;Spatial&lt;space&gt;Column&lt;space&gt;SRID&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;DISCLOSUREGROUP&lt;space&gt;fme_advanced_group&lt;space&gt;postgis_vacuum_analyze%postgis_allow_serial_writing&lt;space&gt;Advanced&lt;quote&gt;&lt;comma&gt;&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;CHOICE&lt;space&gt;postgis_vacuum_analyze&lt;space&gt;YES%NO&lt;space&gt;Vacuum&lt;space&gt;Analyze&lt;space&gt;Table&lt;quote&gt;&lt;comma&gt;NO&lt;comma&gt;&lt;quote&gt;GUI&lt;space&gt;CHOICE&lt;space&gt;postgis_allow_serial_writing&lt;space&gt;YES%NO&lt;space&gt;Allow&lt;space&gt;Serial&lt;space&gt;Column&lt;space&gt;Writing&lt;quote&gt;&lt;comma&gt;NO,WRITER_DEF_LINE_TEMPLATE,&lt;opencurly&gt;FME_GEN_GROUP_NAME&lt;closecurly&gt;&lt;comma&gt;postgis_type&lt;comma&gt;postgis_geometry&lt;comma&gt;postgis_mode&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;comma&gt;postgis_sql_key_columns&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;comma&gt;postgis_drop_table&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;comma&gt;postgis_truncate_table&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;comma&gt;fme_feature_operation&lt;comma&gt;INSERT&lt;comma&gt;fme_table_handling&lt;comma&gt;CREATE_IF_MISSING&lt;comma&gt;fme_selection_method&lt;comma&gt;MATCH_COLUMNS&lt;comma&gt;fme_match_columns&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;comma&gt;fme_where_builder_clause&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;comma&gt;fme_update_geometry&lt;comma&gt;YES&lt;comma&gt;postgis_create_gist_index&lt;comma&gt;YES&lt;comma&gt;postgis_spatial_column_type&lt;comma&gt;geometry&lt;comma&gt;postgis_spatial_column&lt;comma&gt;geom&lt;comma&gt;postgis_srid&lt;comma&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;quote&gt;&lt;comma&gt;postgis_vacuum_analyze&lt;comma&gt;no&lt;comma&gt;postgis_allow_serial_writing&lt;comma&gt;NO,WRITER_FORMAT_PARAMETER,NETWORK_AUTHENTICATION&lt;comma&gt;NO&lt;comma&gt;NETWORK_PROXY&lt;comma&gt;NO&lt;comma&gt;ADVANCED_PARMS&lt;comma&gt;POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING&lt;comma&gt;DATASET_NAME&lt;comma&gt;Database&lt;comma&gt;FEATURE_TYPE_NAME&lt;comma&gt;Table&lt;comma&gt;FEATURE_TYPE_DEFAULT_NAME&lt;comma&gt;Table1&lt;comma&gt;SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME&lt;comma&gt;YES&lt;comma&gt;ATTRIBUTE_READING&lt;comma&gt;DEFLINE_ATTRS&lt;comma&gt;ATTRIBUTE_READING_HISTORIC&lt;comma&gt;ALL&lt;comma&gt;PARAMS_TO_NOT_PROPAGATE_ON_INSPECT&lt;comma&gt;&lt;quote&gt;BEGIN_SQL&lt;space&gt;END_SQL&lt;quote&gt;&lt;comma&gt;ADVANCED_PARMS&lt;comma&gt;&lt;quote&gt;POSTGIS_IN_FEATURES_PER_FETCH&lt;space&gt;POSTGIS_IN_BEGIN_SQL&lt;space&gt;POSTGIS_IN_END_SQL&lt;space&gt;POSTGIS_IN_SEARCH_METHOD&lt;space&gt;POSTGIS_OUT_BULK_COPY&lt;space&gt;POSTGIS_OUT_INSERT_TEXT_GEOMETRY&lt;space&gt;POSTGIS_OUT_TRANSACTION_INTERVAL&lt;space&gt;POSTGIS_OUT_BEGIN_SQL&lt;space&gt;POSTGIS_OUT_END_SQL&lt;quote&gt;,WRITER_HAS_DEFLINE_ATTRS,yes,WRITER_USES_DEF,yes"/>
 #!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="FeatureWriter"/>
 #! </TRANSFORMER>
 #! <TRANSFORMER
-#!   IDENTIFIER="21"
-#!   TYPE="Inspector"
-#!   VERSION="5"
-#!   POSITION="1639.73934346085 27.60551262816"
-#!   BOUNDING_RECT="1639.73934346085 27.60551262816 483.13124999999997 71"
-#!   ORDER="500000000000016"
-#!   PARMS_EDITED="false"
-#!   ENABLED="true"
-#!   LAST_PARM_EDIT="21619"
-#! >
-#!     <XFORM_PARM PARM_NAME="AREA_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="PEN_COLOR" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="POINTCLOUD_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_COLS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_NUM_ROWS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_COL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_START_ROW" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="RASTER_VISUALIZATION_OPTION" PARM_VALUE="No Reduction"/>
-#!     <XFORM_PARM PARM_NAME="TACKATTRS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_INTERVAL" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_MAX_NUM_POINTS" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="THINNER_TYPE_DISPLAY" PARM_VALUE="No Thinning"/>
-#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="VECTOR_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTTPCaller_Output"/>
-#! </TRANSFORMER>
-#! <TRANSFORMER
-#!   IDENTIFIER="22"
-#!   TYPE="HTMLReportGenerator"
-#!   VERSION="1"
-#!   POSITION="1938.221629407305 -277.39041435358166"
-#!   BOUNDING_RECT="1938.221629407305 -277.39041435358166 482.41249999999997 71"
-#!   ORDER="500000000000017"
+#!   IDENTIFIER="19"
+#!   TYPE="VertexCreator"
+#!   VERSION="3"
+#!   POSITION="1303.4664494678659 -294.88911139111383"
+#!   BOUNDING_RECT="1303.4664494678659 -294.88911139111383 454 71"
+#!   ORDER="500000000000018"
 #!   PARMS_EDITED="true"
 #!   ENABLED="true"
 #!   LAST_PARM_EDIT="21619"
 #! >
 #!     <OUTPUT_FEAT NAME="OUTPUT"/>
 #!     <FEAT_COLLAPSED COLLAPSED="0"/>
-#!     <XFORM_ATTR ATTR_NAME="html_content" IS_USER_CREATED="false" FEAT_INDEX="0" />
-#!     <XFORM_PARM PARM_NAME="CONTENTS_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="CONTENT_LIST" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY" PARM_VALUE="&lt;Unused&gt;"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_BY_MODE" PARM_VALUE="No"/>
-#!     <XFORM_PARM PARM_NAME="GROUP_PROCESSING_GROUP" PARM_VALUE="NO"/>
-#!     <XFORM_PARM PARM_NAME="PAGE_CONFIG" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="PAGE_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="TITLE" PARM_VALUE=""/>
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="depth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="mag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="magType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="place" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="pnt_goid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;REJECTED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="depth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="mag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="magType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="place" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="pnt_goid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="fme_rejection_code" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="ADVANCED_PARAMETERS" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="INDEX" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MEASURE_TYPE" PARM_VALUE="Continuous"/>
+#!     <XFORM_PARM PARM_NAME="MISSING_VAL_MODE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="MODE_NAME" PARM_VALUE="Replace with Point"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETER_GROUP" PARM_VALUE=""/>
 #!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
-#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="HTMLReportGenerator"/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="VertexCreator"/>
+#!     <XFORM_PARM PARM_NAME="XVAL" PARM_VALUE="@Value(longitude)"/>
+#!     <XFORM_PARM PARM_NAME="YVAL" PARM_VALUE="@Value(latitude)"/>
+#!     <XFORM_PARM PARM_NAME="ZVAL" PARM_VALUE=""/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="18"
+#!   TYPE="CoordinateSystemSetter"
+#!   VERSION="0"
+#!   POSITION="1918.7069768731394 335"
+#!   BOUNDING_RECT="1918.7069768731394 335 512.31875000000002 71"
+#!   ORDER="500000000000019"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="21619"
+#! >
+#!     <OUTPUT_FEAT NAME="OUTPUT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="depth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="mag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="magType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="place" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="pnt_goid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="COORDSYS" PARM_VALUE="LL-WGS84"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="CoordinateSystemSetter"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="25"
+#!   TYPE="2DForcer"
+#!   VERSION="0"
+#!   POSITION="1977.0257268731393 88.424145491455022"
+#!   BOUNDING_RECT="1977.0257268731393 88.424145491455022 454 71"
+#!   ORDER="500000000000021"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="21619"
+#! >
+#!     <OUTPUT_FEAT NAME="2D"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="depth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="mag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="magType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="place" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="pnt_goid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="2DForcer"/>
+#! </TRANSFORMER>
+#! <TRANSFORMER
+#!   IDENTIFIER="26"
+#!   TYPE="GeometryFilter"
+#!   VERSION="7"
+#!   POSITION="1977.0257268731393 -149.77436524365231"
+#!   BOUNDING_RECT="1977.0257268731393 -149.77436524365231 454 71"
+#!   ORDER="500000000000022"
+#!   PARMS_EDITED="true"
+#!   ENABLED="true"
+#!   LAST_PARM_EDIT="21619"
+#! >
+#!     <OUTPUT_FEAT NAME="POINT"/>
+#!     <FEAT_COLLAPSED COLLAPSED="0"/>
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="depth" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="mag" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="magType" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="place" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <XFORM_ATTR ATTR_NAME="pnt_goid" IS_USER_CREATED="false" FEAT_INDEX="0" />
+#!     <OUTPUT_FEAT NAME="&lt;UNFILTERED&gt;"/>
+#!     <FEAT_COLLAPSED COLLAPSED="1"/>
+#!     <XFORM_ATTR ATTR_NAME="time" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="latitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="longitude" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="depth" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="mag" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="magType" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="id" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="updated" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="place" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="type" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="status" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_ATTR ATTR_NAME="pnt_goid" IS_USER_CREATED="false" FEAT_INDEX="1" />
+#!     <XFORM_PARM PARM_NAME="BREAK_AGG" PARM_VALUE="No"/>
+#!     <XFORM_PARM PARM_NAME="GEOM_PORT_NAMES" PARM_VALUE="Point"/>
+#!     <XFORM_PARM PARM_NAME="INSTANTIATE" PARM_VALUE="&lt;Unused&gt;"/>
+#!     <XFORM_PARM PARM_NAME="PARAMETERS_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="TRANSFORMER_GROUP" PARM_VALUE=""/>
+#!     <XFORM_PARM PARM_NAME="XFORMER_NAME" PARM_VALUE="GeometryFilter"/>
 #! </TRANSFORMER>
 #! </TRANSFORMERS>
 #! <FEAT_LINKS>
@@ -517,11 +612,71 @@
 #!   EXTRA_POINTS=""
 #! />
 #! <FEAT_LINK
-#!   IDENTIFIER="19"
+#!   IDENTIFIER="22"
 #!   SOURCE_NODE="15"
-#!   TARGET_NODE="22"
+#!   TARGET_NODE="19"
 #!   SOURCE_PORT_DESC="fo 0 OUTPUT"
 #!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="28"
+#!   SOURCE_NODE="18"
+#!   TARGET_NODE="25"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="21"
+#!   SOURCE_NODE="19"
+#!   TARGET_NODE="18"
+#!   SOURCE_PORT_DESC="fo 0 OUTPUT"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="30"
+#!   SOURCE_NODE="25"
+#!   TARGET_NODE="26"
+#!   SOURCE_PORT_DESC="fo 0 2D"
+#!   TARGET_PORT_DESC="fi 0 "
+#!   ENABLED="true"
+#!   EXECUTION_IDX="0"
+#!   HIDDEN="false"
+#!   COLOUR="0.82352941176470584,0.82352941176470584,0.82352941176470584,1"
+#!   PEN_WIDTH="4"
+#!   PEN_STYLE="1"
+#!   LINK_STYLE_NAME="&lt;Default&gt;"
+#!   EXTRA_POINTS=""
+#! />
+#! <FEAT_LINK
+#!   IDENTIFIER="29"
+#!   SOURCE_NODE="26"
+#!   TARGET_NODE="12"
+#!   SOURCE_PORT_DESC="fo 0 POINT"
+#!   TARGET_PORT_DESC="fi 0 Output"
 #!   ENABLED="true"
 #!   EXECUTION_IDX="0"
 #!   HIDDEN="false"
@@ -590,12 +745,6 @@ MULTI_READER_CONTINUE_ON_READER_FAILURE No
 
 MACRO WORKSPACE_NAME usgs_earthquake_fmev2021
 MACRO FME_VIEWER_APP fmedatainspector
-# -------------------------------------------------------------------------
-
-INCLUDE [ if {[info exists env(FME_TEMP)] && [file isdirectory $env(FME_TEMP)]} {set gVisualizerTemp $env(FME_TEMP)}  elseif {[info exists env(TEMP)] && [file isdirectory $env(TEMP)]}  {set gVisualizerTemp $env(TEMP)}  elseif { $tcl_platform(platform) == "unix" } {set gVisualizerTemp "/tmp"} else {set gVisualizerTemp c:};  regsub -all {[ ,&]} {$(WORKSPACE_NAME)} {_} wsname; set gVisualizerTemp $gVisualizerTemp/${wsname}_[clock format [clock seconds] -format %H%M%S];  puts "MACRO WORKSPACE_TEMP_DIR $gVisualizerTemp"; 
-MACRO VISUALIZER_FEATURE_FILE $(WORKSPACE_TEMP_DIR)/inspector.ffs
-MACRO VISUALIZER_SCHEMA_FILE $(WORKSPACE_TEMP_DIR)/inspector.fsc
-MACRO VISUALIZER_CREATE_SPATIAL_INDEX YES
 DEFAULT_MACRO WB_CURRENT_CONTEXT
 # -------------------------------------------------------------------------
 Tcl2 proc Creator_CoordSysRemover {} {   global FME_CoordSys;   set FME_CoordSys {}; }
@@ -634,8 +783,33 @@ FACTORY_DEF {*} TeeFactory    FACTORY_NAME { AttributeRounder_AttributeRounder }
 # -------------------------------------------------------------------------
 FACTORY_DEF {*} TeeFactory    FACTORY_NAME { GOIDGenerator }    INPUT  FEATURE_TYPE AttributeRounder_OUTPUT    OUTPUT { FEATURE_TYPE GOIDGenerator_OUTPUT         "pnt_goid" @GOID()          }
 # -------------------------------------------------------------------------
-FACTORY_DEF {*} TeeFactory    INPUT  FEATURE_TYPE GOIDGenerator_OUTPUT    OUTPUT { FEATURE_TYPE HTMLReportGenerator_PROCESSED       fme_html5_title ""       fme_html5_config ""       fme_html5_xformer_name "HTMLReportGenerator" }
-FACTORY_DEF {*} PythonFactory    FACTORY_NAME { HTMLReportGenerator }    FLUSH_WHEN_GROUPS_CHANGE { No }    INPUT { FEATURE_TYPE HTMLReportGenerator_PROCESSED }    PYTHON_NAMESPACE FMEOBJECTS    SYMBOL_NAME reportgenerator.html5assembler.HTML5Assembler
+FACTORY_DEF {*} VertexCreatorFactory    FACTORY_NAME { VertexCreator }    INPUT  FEATURE_TYPE GOIDGenerator_OUTPUT    MODE { REPLACE }    INDEX { "<Unused>" }    CONTINUE_ON_ERROR YES    XVAL { "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>longitude<closeparen>,VertexCreator)" }    YVAL { "@EvaluateExpression(FDIV,FLOAT,<at>Value<openparen>latitude<closeparen>,VertexCreator)" }    ZVAL { "" }    USE_EXISTING_Z YES    MISSING_VAL_MODE { <Unused> }    COMPUTE_MEASURES_MODE { CONTINUOUS }    OUTPUT { OUTPUT FEATURE_TYPE VertexCreator_OUTPUT        }    OUTPUT { REJECTED FEATURE_TYPE VertexCreator_<REJECTED>        }
+DEFAULT_MACRO _WB_BYPASS_TERMINATION No
+FACTORY_DEF * TeeFactory FACTORY_NAME VertexCreator_<Rejected> INPUT FEATURE_TYPE VertexCreator_<REJECTED>  OUTPUT FAILED FEATURE_TYPE * @Abort(ENCODED, VertexCreator<space>output<space>a<space><lt>Rejected<gt><space>feature.<space><space>To<space>continue<space>translation<space>when<space>features<space>are<space>rejected<comma><space>change<space><apos>Workspace<space>Parameters<apos><space><gt><space>Translation<space><gt><space><apos>Rejected<space>Feature<space>Handling<apos><space>to<space><apos>Continue<space>Translation<apos>)
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { CoordinateSystemSetter }    INPUT  FEATURE_TYPE VertexCreator_OUTPUT    OUTPUT { FEATURE_TYPE CoordinateSystemSetter_OUTPUT         @CoordSys("LL-WGS84")          }
+# -------------------------------------------------------------------------
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { 2DForcer }    INPUT  FEATURE_TYPE CoordinateSystemSetter_OUTPUT    OUTPUT { FEATURE_TYPE 2DForcer_2D         @Dimension(2)          }
+# -------------------------------------------------------------------------
+MACRO OUTPUT_POINT_FTYPE not_selected
+MACRO OUTPUT_POINT_FTYPE GeometryFilter_POINT
+MACRO OUTPUT_INSTANCE_FTYPE not_selected
+Lookup GeometryFilter_RouterTable   ""  "not_selected"   fme_point $(OUTPUT_POINT_FTYPE)
+# Create a FME_UUID_SAFE from the FME_UUID so we can use it for Tcl identifiers (FMEDESKTOP-11308)
+INCLUDE [ FME_CleanseFMEUUID {GeometryFilter_6df77765_64c1_406f_b330_c2bc36ac88994} ]
+MACRO COLLECTION_HANDLING NOT_THIS_TIME
+MACRO INSTANCE_FILTERING *
+INCLUDE [    if 0 {       puts "MACRO COLLECTION_HANDLING *";       if <Unused> {          puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";       };    };    if {{$(OUTPUT_INSTANCE_FTYPE)} == "not_selected"} {       puts "MACRO INSTANCE_FILTERING NOT_THIS_TIME";    }; ]
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { GeometryFilter_InputPassThrough }    INPUT  FEATURE_TYPE 2DForcer_2D    OUTPUT { FEATURE_TYPE GeometryFilter___Input___       @Geometry(FIX_FMETYPE_FMEGEOMETRY) }
+FACTORY_DEF {$(INSTANCE_FILTERING)} TestFactory    FACTORY_NAME { GeometryFilter_InstanceTest }    INPUT { FEATURE_TYPE GeometryFilter___Input___ }    TEST @Geometry(IS_GEOMETRY_INSTANCE) == 1    OUTPUT { PASSED FEATURE_TYPE $(OUTPUT_INSTANCE_FTYPE) }    OUTPUT { FAILED FEATURE_TYPE GeometryFilter___Input___ }
+FACTORY_DEF {$(COLLECTION_HANDLING)} TestFactory    FACTORY_NAME { GeometryFilter_CollectionTest }    INPUT { FEATURE_TYPE GeometryFilter___Input___ }    TEST &fme_type == "fme_collection"    OUTPUT { FAILED FEATURE_TYPE GeometryFilter___Not_Collection___ }    OUTPUT { PASSED FEATURE_TYPE GeometryFilter___Collection___ }
+FACTORY_DEF {$(COLLECTION_HANDLING)} DeaggregateFactory    FACTORY_NAME { GeometryFilter_Deagg }    INPUT { FEATURE_TYPE GeometryFilter___Collection___ }    HOMOGENIZE_COLLECTIONS YES    RECURSIVE YES    SET_FME_TYPE YES    INSTANTIATE_GEOMETRY_INSTANCES_NEW { <Unused> }    OUTPUT { POINT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___ }    OUTPUT { LINE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___ }    OUTPUT { POLYGON FEATURE_TYPE GeometryFilter___HomogeneousAggregate___ }    OUTPUT { DONUT FEATURE_TYPE GeometryFilter___HomogeneousAggregate___ }    OUTPUT { AGGREGATE FEATURE_TYPE GeometryFilter___HomogeneousAggregate___ }
+FACTORY_DEF {*} TeeFactory    FACTORY_NAME { GeometryFilter_RouterPrepper }    INPUT { FEATURE_TYPE GeometryFilter___HomogeneousAggregate___ }    INPUT { FEATURE_TYPE GeometryFilter___Not_Collection___ }    INPUT { FEATURE_TYPE GeometryFilter___Input___ }    OUTPUT { FEATURE_TYPE GeometryFilter___Prepped___        @SupplyAttributes("$(FME_UUID_SAFE)_targetFeatureType", @Lookup(GeometryFilter_RouterTable,&fme_type)) }
+FACTORY_DEF {*} TestFactory    FACTORY_NAME { GeometryFilter_Router }    INPUT { FEATURE_TYPE GeometryFilter___Prepped___ }    TEST { @Value($(FME_UUID_SAFE)_targetFeatureType) != "not_selected" }    OUTPUT { PASSED FEATURE_TYPE * @FeatureType(@Value($(FME_UUID_SAFE)_targetFeatureType))                                 @RemoveAttributes($(FME_UUID_SAFE)_targetFeatureType) }    OUTPUT { FAILED FEATURE_TYPE GeometryFilter_<UNFILTERED>        @RemoveAttributes($(FME_UUID_SAFE)_targetFeatureType)         }
+FACTORY_DEF * TeeFactory   FACTORY_NAME "GeometryFilter <UNFILTERED> Transformer Output Nuker"   INPUT FEATURE_TYPE GeometryFilter_<UNFILTERED>
+# -------------------------------------------------------------------------
+INCLUDE [    puts {DEFAULT_MACRO FeatureWriterDataset_FeatureWriter mygis}; ]
+FACTORY_DEF {*} WriterFactory    FLUSH_WHEN_GROUPS_CHANGE { <Unused> }    FACTORY_NAME { FeatureWriter }    WRITER_TYPE { POSTGIS }    WRITER_DATASET { "$(FeatureWriterDataset_FeatureWriter)" }    WRITER_SETTINGS { "RUNTIME_MACROS,STRICT_TEMPORAL_TYPE_HANDLING<comma>Yes<comma>NAMED_CONNECTION<comma>mygis<comma>SPATIAL_COLUMN_TYPE<comma>geometry<comma>SPATIAL_COLUMN_NAME<comma>geom<comma>GENERIC_GEOMETRY<comma>yes<comma>LOWERCASE_ATTRIBUTE_NAMES<comma>Yes<comma>COORDINATE_SYSTEM_GRANULARITY<comma>FEATURE_TYPE<comma>ADVANCED<comma><comma>BULK_COPY<comma>YES<comma>INSERT_TEXT_GEOMETRY<comma>NO<comma>START_TRANSACTION<comma>0<comma>TRANSACTION_INTERVAL<comma>1000<comma>BEGIN_SQL<comma><comma>END_SQL<comma>,METAFILE,POSTGIS" }    WRITER_METAFILE { "ATTRIBUTE_CASE,LOWER,ATTRIBUTE_INVALID_CHARS,.<space>%-#<openbracket><closebracket><quote><openparen><closeparen>!?*<apos><amp>+<backslash><solidus>,ATTRIBUTE_LENGTH,63,ATTR_TYPE_MAP,bool<comma>fme_boolean<comma>char<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>varchar<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen><comma>text<comma>fme_buffer<comma>xml<comma>fme_xml<comma>json<comma>fme_json<comma>jsonb<comma>fme_json<comma>bytea<comma>fme_binarybuffer<comma>bytea<comma>fme_varbinary<openparen>width<closeparen><comma>bytea<comma>fme_binary<openparen>width<closeparen><comma>int2<comma>fme_int16<comma>int2<comma>fme_int8<comma>int2<comma>fme_uint8<comma>int4<comma>fme_int32<comma>int4<comma>fme_uint16<comma>int8<comma>fme_int64<comma>int8<comma>fme_uint32<comma><quote>numeric<openparen>width<comma>decimal<closeparen><quote><comma><quote>fme_decimal<openparen>width<comma>decimal<closeparen><quote><comma><quote>numeric<openparen>20<comma>0<closeparen><quote><comma>fme_uint64<comma>oid<comma>fme_uint32<comma>serial<comma>fme_int32<comma>float4<comma>fme_real32<comma>money<comma>fme_real32<comma>float8<comma>fme_real64<comma>date<comma>fme_date<comma>time<comma>fme_time<comma>timetz<comma>fme_time<comma>timestamp<comma>fme_datetime<comma>timestamptz<comma>fme_datetime<comma>uuid<comma>fme_buffer<comma>bit<openparen>width<closeparen><comma>fme_char<openparen>width<closeparen><comma>varbit<comma>fme_buffer<comma>varbit<openparen>width<closeparen><comma>fme_varchar<openparen>width<closeparen>,DEST_ILLEGAL_ATTR_LIST,,FEATURE_TYPE_CASE,ANY,FEATURE_TYPE_INVALID_CHARS,<backslash><backslash><solidus><quote>:?*<lt><gt>|<openbracket>%#<space><apos><amp>+<closebracket>,FEATURE_TYPE_LENGTH,63,FEATURE_TYPE_LENGTH_INCLUDES_PREFIX,false,FEATURE_TYPE_RESERVED_WORDS,,FORMAT_METAFILE,$(FME_HOME_ENCODED)metafile<backslash>POSTGIS.fmf,FORMAT_NAME,POSTGIS,GEOM_MAP,postgis_multipoint<comma>fme_point<comma>postgis_point<comma>fme_point<comma>postgis_multilinestring<comma>fme_line<comma>postgis_multicurve<comma>fme_line<comma>postgis_linestring<comma>fme_line<comma>postgis_multilinestring<comma>fme_line<comma>postgis_circularstring<comma>fme_line<comma>postgis_compoundcurve<comma>fme_line<comma>postgis_multipolygon<comma>fme_polygon<comma>postgis_multisurface<comma>fme_polygon<comma>postgis_polygon<comma>fme_polygon<comma>postgis_multipolygon<comma>fme_polygon<comma>postgis_curvepolygon<comma>fme_polygon<comma>postgis_multipolygon<comma>fme_rectangle<comma>postgis_multipolygon<comma>fme_rounded_rectangle<comma>postgis_multipoint<comma>fme_text<comma>postgis_multipolygon<comma>fme_ellipse<comma>postgis_multilinestring<comma>fme_arc<comma>postgis_triangle<comma>fme_polygon<comma>postgis_polyhedralsurface<comma>fme_surface<comma>postgis_polyhedralsurface<comma>fme_solid<comma>postgis_tin<comma>fme_surface<comma>postgis_none<comma>fme_no_geom<comma>postgis_geometry<comma>fme_no_geom<comma>postgis_geometrycollection<comma>fme_collection<comma>postgis_multipolygon<comma>fme_raster<comma>postgis_multipolygon<comma>fme_point_cloud<comma>postgis_multipolygon<comma>fme_voxel_grid<comma>postgis_none<comma>fme_feature_table,READER_ATTR_INDEX_TYPES,BTree<comma>RTree<comma>Hash<comma>PrimaryKey,READER_USES_DEF,yes,SOURCE,no,SUPPORTS_FEAT_TYPE_FANOUT,yes,SUPPORTS_MULTI_GEOM,yes,WORKBENCH_CANNED_SCHEMA,,WRITER,POSTGIS,WRITER_ATTR_INDEX_TYPES,BTree<comma>RTree<comma>Hash<comma>PrimaryKey,WRITER_DEFLINE_PARMS,<quote>GUI<space>NAMEDGROUP<space>fme_configuration_group<space>fme_configuration_common_group%fme_spatial_group%fme_advanced_group%oracle_advanced_group<space>Table<quote><comma><comma><quote>GUI<space>NAMEDGROUP<space>fme_configuration_common_group<space>fme_feature_operation%fme_table_handling%mie_pack%oracle_model%fme_update_geometry%fme_selection_group%fme_table_creation_group<space>General<quote><comma><comma><quote>GUI<space>ACTIVECHOICE_LOOKUP<space>fme_feature_operation<space>Insert<comma>INSERT<comma>fme_update_geometry<comma>fme_selection_group<comma>mie_pack%Update<comma>UPDATE<comma>++fme_table_handling+USE_EXISTING<comma>++fme_selection_group+FME_DISCLOSURE_OPEN%Delete<comma>DELETE<comma>++fme_table_handling+USE_EXISTING<comma>fme_update_geometry<comma>++fme_selection_group+FME_DISCLOSURE_OPEN<comma>fme_spatial_group<comma>fme_advanced_group<comma>oracle_sequenced_cols%<lt>at<gt>Value<lt>openparen<gt>fme_db_operation<lt>closeparen<gt><comma>MULTIPLE<comma>++fme_table_handling+USE_EXISTING<comma>++fme_selection_group+FME_DISCLOSURE_OPEN<space>Feature<space>Operation<quote><comma>INSERT<comma><quote>GUI<space>ACTIVECHOICE_LOOKUP<space>fme_table_handling<space>Use<lt>space<gt>Existing<comma>USE_EXISTING<comma>fme_table_creation_group%Create<lt>space<gt>If<lt>space<gt>Needed<comma>CREATE_IF_MISSING%Drop<lt>space<gt>and<lt>space<gt>Create<comma>DROP_CREATE%Truncate<lt>space<gt>Existing<comma>TRUNCATE_EXISTING<comma>fme_table_creation_group<space>Table<space>Handling<quote><comma>CREATE_IF_MISSING<comma><quote>GUI<space>WHOLE_LINE<space>LOOKUP_CHOICE<space>fme_update_geometry<space>Yes<comma>YES%No<comma>NO<space>Update<space>Spatial<space>Column<openparen>s<closeparen><quote><comma>YES<comma><quote>GUI<space>DISCLOSUREGROUP<space>fme_selection_group<space>fme_selection_method<space>Row<space>Selection<quote><comma><comma><quote>GUI<space>WHOLE_LINE<space>RADIOPARAMETERGROUP<space>fme_selection_method<space>fme_match_columns<comma>MATCH_COLUMNS%fme_where_builder_clause<comma>BUILDER<space>Row<space>Selection<space>Method<quote><comma>MATCH_COLUMNS<comma><quote>GUI<space>WHOLE_LINE<space>ATTRLIST_COMMAS<space>fme_match_columns<space>Match<space>Columns<quote><comma><comma><quote>GUI<space>WHOLE_LINE<space>TEXT_EDIT_SQL_CFG_OR_ATTR<space>fme_where_builder_clause<space>MODE<comma>WHERE<space>WHERE<space>Clause<quote><comma><comma><quote>GUI<space>DISCLOSUREGROUP<space>fme_table_creation_group<space>postgis_create_gist_index<space>Table<space>Creation<space>Parameters<quote><comma><comma><quote>GUI<space>CHOICE<space>postgis_create_gist_index<space>YES%NO<space>Create<space>GiST<space>Index<quote><comma>YES<comma><quote>GUI<space>NAMEDGROUP<space>fme_spatial_group<space>postgis_spatial_column_type%postgis_spatial_column%postgis_srid<space>Spatial<quote><comma><comma><quote>GUI<space>LOOKUP_CHOICE<space>postgis_spatial_column_type<space>Geometry<comma>geometry%Geography<comma>geography<space>Spatial<space>Type<quote><comma>geometry<comma><quote>GUI<space>OPTIONAL<space>WHOLE_LINE<space>TEXT<space>postgis_spatial_column<space>Spatial<space>Column<quote><comma>geom<comma><quote>GUI<space>OPTIONAL<space>FLOAT<space>postgis_srid<space>Spatial<space>Column<space>SRID<quote><comma><comma><quote>GUI<space>DISCLOSUREGROUP<space>fme_advanced_group<space>postgis_vacuum_analyze%postgis_allow_serial_writing<space>Advanced<quote><comma><comma><quote>GUI<space>CHOICE<space>postgis_vacuum_analyze<space>YES%NO<space>Vacuum<space>Analyze<space>Table<quote><comma>NO<comma><quote>GUI<space>CHOICE<space>postgis_allow_serial_writing<space>YES%NO<space>Allow<space>Serial<space>Column<space>Writing<quote><comma>NO,WRITER_DEF_LINE_TEMPLATE,<opencurly>FME_GEN_GROUP_NAME<closecurly><comma>postgis_type<comma>postgis_geometry<comma>postgis_mode<comma><quote><quote><quote><quote><quote><quote><comma>postgis_sql_key_columns<comma><quote><quote><quote><quote><quote><quote><comma>postgis_drop_table<comma><quote><quote><quote><quote><quote><quote><comma>postgis_truncate_table<comma><quote><quote><quote><quote><quote><quote><comma>fme_feature_operation<comma>INSERT<comma>fme_table_handling<comma>CREATE_IF_MISSING<comma>fme_selection_method<comma>MATCH_COLUMNS<comma>fme_match_columns<comma><quote><quote><quote><quote><quote><quote><comma>fme_where_builder_clause<comma><quote><quote><quote><quote><quote><quote><comma>fme_update_geometry<comma>YES<comma>postgis_create_gist_index<comma>YES<comma>postgis_spatial_column_type<comma>geometry<comma>postgis_spatial_column<comma>geom<comma>postgis_srid<comma><quote><quote><quote><quote><quote><quote><comma>postgis_vacuum_analyze<comma>no<comma>postgis_allow_serial_writing<comma>NO,WRITER_FORMAT_PARAMETER,NETWORK_AUTHENTICATION<comma>NO<comma>NETWORK_PROXY<comma>NO<comma>ADVANCED_PARMS<comma>POSTGIS_IN_SCHEMAS_FOR_TABLE_LISTING<comma>DATASET_NAME<comma>Database<comma>FEATURE_TYPE_NAME<comma>Table<comma>FEATURE_TYPE_DEFAULT_NAME<comma>Table1<comma>SUPPORTS_SCHEMA_IN_FEATURE_TYPE_NAME<comma>YES<comma>ATTRIBUTE_READING<comma>DEFLINE_ATTRS<comma>ATTRIBUTE_READING_HISTORIC<comma>ALL<comma>PARAMS_TO_NOT_PROPAGATE_ON_INSPECT<comma><quote>BEGIN_SQL<space>END_SQL<quote><comma>ADVANCED_PARMS<comma><quote>POSTGIS_IN_FEATURES_PER_FETCH<space>POSTGIS_IN_BEGIN_SQL<space>POSTGIS_IN_END_SQL<space>POSTGIS_IN_SEARCH_METHOD<space>POSTGIS_OUT_BULK_COPY<space>POSTGIS_OUT_INSERT_TEXT_GEOMETRY<space>POSTGIS_OUT_TRANSACTION_INTERVAL<space>POSTGIS_OUT_BEGIN_SQL<space>POSTGIS_OUT_END_SQL<quote>,WRITER_HAS_DEFLINE_ATTRS,yes,WRITER_USES_DEF,yes" }    WRITER_FEATURE_TYPES { "output:Output,ftp_feature_type_name,output,ftp_feature_type_qualifier,public,ftp_writer,POSTGIS,ftp_dynamic_schema,no,ftp_dynamic_feature_type_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_geometry_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_def_name_type,DYN_SCHEMA_PROP_AUTO,ftp_dynamic_schema_sources,<lt>lt<gt>Unused<lt>gt<gt>,ftp_attribute_source,0,ftp_user_attributes,time<comma>varchar<lt>openparen<gt>25<lt>closeparen<gt><comma>latitude<comma>float8<comma>longitude<comma>float8<comma>depth<comma>float8<comma>mag<comma>float8<comma>magtype<comma>varchar<lt>openparen<gt>6<lt>closeparen<gt><comma>id<comma>varchar<lt>openparen<gt>13<lt>closeparen<gt><comma>updated<comma>varchar<lt>openparen<gt>25<lt>closeparen<gt><comma>place<comma>varchar<lt>openparen<gt>60<lt>closeparen<gt><comma>type<comma>varchar<lt>openparen<gt>13<lt>closeparen<gt><comma>status<comma>varchar<lt>openparen<gt>10<lt>closeparen<gt><comma>pnt_goid<comma>text,ftp_user_attribute_values,<comma><comma><comma><comma><comma><comma><comma><comma><comma><comma><comma>,ftp_format_parameters,fme_configuration_group<comma><comma>fme_configuration_common_group<comma><comma>fme_feature_operation<comma>INSERT<comma>fme_table_handling<comma>CREATE_IF_MISSING<comma>fme_update_geometry<comma><lt>lt<gt>Unused<lt>gt<gt><comma>fme_selection_group<comma><comma>fme_selection_method<comma><lt>lt<gt>Unused<lt>gt<gt><comma>fme_match_columns<comma><lt>lt<gt>Unused<lt>gt<gt><comma>fme_where_builder_clause<comma><lt>lt<gt>Unused<lt>gt<gt><comma>fme_table_creation_group<comma><comma>postgis_create_gist_index<comma>YES<comma>fme_spatial_group<comma><comma>postgis_spatial_column_type<comma>geometry<comma>postgis_spatial_column<comma>geom<comma>postgis_srid<comma><comma>fme_advanced_group<comma><comma>postgis_vacuum_analyze<comma>NO<comma>postgis_allow_serial_writing<comma>NO" }    WRITER_PARAMS { "LOWERCASE_ATTRIBUTE_NAMES,Yes,SPATIAL_COLUMN_TYPE,geometry,TRANSACTION_INTERVAL,1000,STRICT_TEMPORAL_TYPE_HANDLING,Yes,NAMED_CONNECTION,mygis,START_TRANSACTION,0,GENERIC_GEOMETRY,yes,INSERT_TEXT_GEOMETRY,NO,COORDINATE_SYSTEM_GRANULARITY,FEATURE_TYPE,BULK_COPY,YES,SPATIAL_COLUMN_NAME,geom" }    WRITER_COORDSYS { "LL-WGS84" }    DATASET_ATTR { "_dataset" }    FEATURE_TYPE_LIST_ATTR { "_feature_types" }    TOTAL_FEATURES_WRITTEN_ATTR { "_total_features_written" }    OUTPUT_PORTS { "" }    INPUT Output FEATURE_TYPE GeometryFilter_POINT  @FeatureType(ENCODED,public.output)   @CopyAttributes(ENCODED,magtype,magType)
 # -------------------------------------------------------------------------
 
 FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Correlator"   COMMAND_PARM_EVALUATION SINGLE_PASS   INPUT FEATURE_TYPE *   FEATURE_TYPE_ATTRIBUTE __wb_out_feat_type__   OUTPUT ROUTED FEATURE_TYPE *    OUTPUT NOT_ROUTED FEATURE_TYPE __nuke_me__ @Tcl2("FME_StatMessage 818059 [FME_GetAttribute fme_template_feature_type] 818060 818061 fme_warn")
@@ -643,8 +817,3 @@ FACTORY_DEF * RoutingFactory FACTORY_NAME "Destination Feature Type Routing Corr
 
 FACTORY_DEF * TeeFactory   FACTORY_NAME "Final Output Nuker"   INPUT FEATURE_TYPE __nuke_me__
 
-# -------------------------------------------------------------------------
-
-DEFAULT_MACRO FME_LAUNCH_VIEWER_APP NO
-FACTORY_DEF * CreationFactory    FACTORY_NAME VisualizerProcessor   CREATE_AT_END   OUTPUT FEATURE_TYPE __NUKEME__   @TCL("if {{$(FME_LAUNCH_VIEWER_APP)} == {YES}} {  if [file exists {$(WORKSPACE_TEMP_DIR)}] {set files [glob -nocomplain -directory  {$(WORKSPACE_TEMP_DIR)} -tails *.ffs];   if {[llength $files] == 1} {    set theFile {$(WORKSPACE_TEMP_DIR)/};   append theFile [lindex $files 0];   eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -f FFS \042$theFile\042 & \175;  } elseif { [llength $files] == 0 } {  catch { file delete -force {$(WORKSPACE_TEMP_DIR)} };  } else {  set filesNoExt {}; set lastfile {}; foreach {fileName} [lsort $files] { set fileNoExt [string trimright $fileName {.ffs}]; if [regexp {(.*)_[0-9]*$} $fileNoExt wholething fileNoExtBase] {  if { $fileNoExtBase == $lastfile } { continue } }; set lastfile $fileNoExt; lappend filesNoExt $fileNoExt };  eval FME_Execute System \173\042$(FME_HOME_UNIX)/fmedatainspector\042 --visualizer --single-application --delete-on-close --no-source-prompt -d {$(WORKSPACE_TEMP_DIR)} -a ffs -f FFS $filesNoExt & \175; }; }; }; ")
-FACTORY_DEF * TeeFactory    FACTORY_NAME VisualizerCleaner   INPUT FEATURE_TYPE __NUKEME__
